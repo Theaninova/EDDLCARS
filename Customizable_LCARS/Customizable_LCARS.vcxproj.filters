@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\LCARS">
+      <UniqueIdentifier>{4aa5afed-183e-4456-bcaf-ae8a5e2b5fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LCARS">
+      <UniqueIdentifier>{999cb16e-dc72-4761-b0a7-d4e3ebd184e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LCARS\Segments">
+      <UniqueIdentifier>{938005fc-0711-4ecc-ba6c-e2ac46cf500d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LCARS\Segments">
+      <UniqueIdentifier>{a7a8cd61-192f-4608-bfbb-d8a03223f877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LCARS\Buttons">
+      <UniqueIdentifier>{52f1e623-c8bd-4815-8dcc-4d98f803677f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LCARS\Buttons">
+      <UniqueIdentifier>{de736576-56b0-4eee-9e50-156772a34bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LCARS\SFML">
+      <UniqueIdentifier>{d25691c2-942f-43b7-92cf-81de6cbd0cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LCARS\SFML">
+      <UniqueIdentifier>{c51593bd-0bbb-45f0-b2d1-bca8f534a3da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swept.h">
+      <Filter>Header Files\LCARS</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Header Files\LCARS</Filter>
+    </ClInclude>
+    <ClInclude Include="Content.h">
+      <Filter>Header Files\LCARS</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Header Files\LCARS\Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="InputFocusedSegment.h">
+      <Filter>Header Files\LCARS\Segments</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\LCARS\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentButton.h">
+      <Filter>Header Files\LCARS\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundedRectangle.h">
+      <Filter>Header Files\LCARS\SFML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customizable_LCARS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Swept.cpp">
+      <Filter>Source Files\LCARS</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Source Files\LCARS</Filter>
+    </ClCompile>
+    <ClCompile Include="Content.cpp">
+      <Filter>Source Files\LCARS</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Source Files\LCARS\Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="InputFocusedSegment.cpp">
+      <Filter>Source Files\LCARS\Segments</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\LCARS\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentButton.cpp">
+      <Filter>Source Files\LCARS\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundedRectangle.cpp">
+      <Filter>Source Files\LCARS\SFML</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
