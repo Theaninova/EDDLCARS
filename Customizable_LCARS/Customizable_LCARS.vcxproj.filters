@@ -72,6 +72,9 @@
     <ClInclude Include="RoundedRectangle.h">
       <Filter>Header Files\LCARS\SFML</Filter>
     </ClInclude>
+    <ClInclude Include="EDDInterface64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
